@@ -1,24 +1,24 @@
 # :tada: Welcome to our API repository!
 
-As you can see this repo is empty, but this doesn't mean that is useless, in fact the main attraction of it it's not the code but the [**Discussions**](https://github.com/fattureincloud/api/discussions)
+This repository hosts the **Fatture in Cloud Developers Community**!!! The Community is the place where you can interact with the members of Fatture in Cloud team and with other developers like you to solve every doubt about our APIs that could arise. Maybe somebody already answered your question!
 
-## :people_hugging: Interact with us!
+You can find our Community in the [**Discussions**](https://github.com/fattureincloud/api/discussions) page.
 
-If you have new incredible ideas, you have questions about our APIs or you created a fantastic integration you want to show to the community this is the place for you!
+Our community is organised in the following categories:
 
 ## :mega: Announcements
 
-In [this section](https://github.com/fattureincloud/api/discussions/categories/announcements) we write updates about the most important features we release, there you can see if the feature you always wanted is finally available.
+In [this section](https://github.com/fattureincloud/api/discussions/categories/announcements) we announce the most important features we release, so you can always be updated on the most recent changes.
 
 ## :bulb: Feature request
 
-As we are always aiming to improve our APIs, it's possible for you to propose features to be implemented, just make sure the same idea hasn't already been proposed or it's already on our [roadmap](www.url.com).
+Do you have an incredible idea, and you would like to see it implemented into our APIs? As we are always aiming to improve our APIs, it's possible for you to propose new features in this section, just check if the same idea has already been proposed before or it's already on our [roadmap](https://trello.com/b/uAjGCOhL/fic-api-roadmap-overview).
 
 ## :wrench: Technical questions
 
-If you can't figure out how to do something with our APIs you can use the [Q&A section](https://github.com/fattureincloud/api/discussions/categories/q-a), where you can ask questions "Stack Overflow" style, explaining clearly the problems you are facing trying to consume our APIs.
+If you can't figure out how to use our APIs you can open a new discussion in the [Q&A section](https://github.com/fattureincloud/api/discussions/categories/q-a), where you can ask questions "Stack Overflow" style, explaining clearly the problems you are facing trying to consume our APIs.
 
-Please, make sure you check out the [guides](https://developers-next.fattureincloud.it/docs/intro) we provide in our documentations that already covers the most common problems you can encounter using our APIs, in particular we suggest that you read the [Invoice Creation guide](https://developers-next.fattureincloud.it/docs/guides/invoice-creation) that explains in depth all you need to know about the issued documents, the Fatture in Cloud core.
+Please, make sure you check out the [guides](https://developers.fattureincloud.it/docs/getting-started) we provide in our documentations that already covers the most common problems you can encounter using our APIs, in particular we suggest that you read the [Invoice Creation guide](https://developers.fattureincloud.it/docs/guides/invoice-creation) that explains in depth all you need to know about the issued documents, the Fatture in Cloud core.
 
 
 ---
@@ -30,4 +30,4 @@ DO NOT put sensitive data in the public github discussions, you can either put f
 
 ## :link: Share your work
 
-If you created an awesome integration with our APIs and you want to show it to the community you are free to do it in the [Show and tell section](https://github.com/fattureincloud/api/discussions/categories/show-and-tell).
+If you created an awesome integration with our APIs and you want to show it to the community, you are free to do it in the [Show and tell section](https://github.com/fattureincloud/api/discussions/categories/show-and-tell).
