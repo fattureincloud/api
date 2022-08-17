@@ -11,7 +11,6 @@ All notable changes to this project will be documented in this file.
 
 * **Create Issued Document**: *ei_data.od_number* and *oei_data.d_date* parameters are now required when *ei_data.original_document_type* is specified
 * **Create Issued Document**: *ei_data.payment_method* parameter is now required when *e_invoice* is set to true
-* **Create Issued Document**: *ei_data.invoice_number* and *ei_data.invoice_date* parameters are now required when *e_invoice* is set to true and the *type* is credit_note
 
 ### Fixed
 
