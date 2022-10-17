@@ -15,3 +15,9 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 
 * fixed issue causing a 500 error in case of *fields* parameter set as empty string in LIST and GET methods
+
+## 2.2.0 (2022-09-15)
+
+### Changed
+
+* monthly private apps limits are now added up togheter for a maximum of 20000 calls per month per company, public apps limits remain unchanged at 20000 calls per month per company for each app.
