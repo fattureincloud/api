@@ -35,6 +35,8 @@ All notable changes to this project will be documented in this file.
 * **Issued Document**: added *created_at* and *updated_at* fields.
 * **Entity**: added *country_iso* field.
 
+* Attachment urls are now temporary, every type of document and resource is effected.
+
 ### Fixed
 
 * fixed invalid API request json body returned error.
