@@ -21,3 +21,21 @@ All notable changes to this project will be documented in this file.
 ### Changed
 
 * monthly private apps limits are now added up togheter for a maximum of 20000 calls per month per company, public apps limits remain unchanged at 20000 calls per month per company for each app.
+
+## 2.3.0 (2022-11-21)
+
+### Added
+
+* **List Emails**: added endpoint to list sent emails.
+* **Transform Issued Documents**: added endpoint transform issued documents.
+* **Join Issued Documents**: added endpoint to join issued documents.
+
+### Changed
+
+* **Issued Document**: added *created_at* and *updated_at* fields.
+* **Entity**: added *country_iso* field.
+
+### Fixed
+
+* fixed invalid API request json body returned error.
+
