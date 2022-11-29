@@ -5,7 +5,14 @@ All notable changes to this project will be documented in this file.
 * Minor versions are made in case of notable changes, new methods added, or small breaking changes made to prevent subsequent problems upstream.
 * Patch versions for all other small changes or fixes.
 
-## 2.3.0 (2022-11-21)
+## 2.3.0 (2022-11-29)
+
+### Changed
+
+* **Attachments**: all attachments related urls are now temporary.
+* **Create Issued Document**: added *entity.id* validations (if it does not exist a 422 error is returned) 
+
+## 2.2.0 (2022-11-21)
 
 ### Added
 
@@ -24,7 +31,7 @@ All notable changes to this project will be documented in this file.
 
 * fixed invalid API request json body returned error.
 
-## 2.2.0 (2022-09-15)
+## 2.0.1 (2022-09-15)
 
 ### Changed
 
