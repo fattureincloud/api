@@ -5,23 +5,6 @@ All notable changes to this project will be documented in this file.
 * Minor versions are made in case of notable changes, new methods added, or small breaking changes made to prevent subsequent problems upstream.
 * Patch versions for all other small changes or fixes.
 
-## 2.1.0 (2022-08-12)
-
-### Changed
-
-* **Create Issued Document**: *ei_data.od_number* and *oei_data.d_date* parameters are now required when *ei_data.original_document_type* is specified
-* **Create Issued Document**: *ei_data.payment_method* parameter is now required when *e_invoice* is set to true
-
-### Fixed
-
-* fixed issue causing a 500 error in case of *fields* parameter set as empty string in LIST and GET methods
-
-## 2.2.0 (2022-09-15)
-
-### Changed
-
-* monthly private apps limits are now added up togheter for a maximum of 20000 calls per month per company, public apps limits remain unchanged at 20000 calls per month per company for each app.
-
 ## 2.3.0 (2022-11-21)
 
 ### Added
@@ -41,3 +24,19 @@ All notable changes to this project will be documented in this file.
 
 * fixed invalid API request json body returned error.
 
+## 2.2.0 (2022-09-15)
+
+### Changed
+
+* monthly private apps limits are now added up togheter for a maximum of 20000 calls per month per company, public apps limits remain unchanged at 20000 calls per month per company for each app.
+
+## 2.1.0 (2022-08-12)
+
+### Changed
+
+* **Create Issued Document**: *ei_data.od_number* and *oei_data.d_date* parameters are now required when *ei_data.original_document_type* is specified
+* **Create Issued Document**: *ei_data.payment_method* parameter is now required when *e_invoice* is set to true
+
+### Fixed
+
+* fixed issue causing a 500 error in case of *fields* parameter set as empty string in LIST and GET methods
