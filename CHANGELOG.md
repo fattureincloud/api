@@ -13,7 +13,7 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 
-* **Country iso**: Canaries Island country iso is now *IC* so it does not interfere anymore with *ES* (Spain).
+* **Country iso**: Canary Islands country iso is now *IC* so it does not interfere anymore with *ES* (Spain).
 
 ## 2.4.0 (2023-01-05)
 
