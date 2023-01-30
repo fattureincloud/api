@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 * Minor versions are made in case of notable changes, new methods added, or small breaking changes made to prevent subsequent problems upstream.
 * Patch versions for all other small changes or fixes.
 
+## 2.5.0 (2023-01-30)
+
+### Changed
+
+* **Monthly quotas**: monthly quotas are now incremented from 20k to 40k per month.
+
+### Fixed
+
+* **Country iso**: Canaries island country iso is now *IC* so it does not interfere anymore with *ES* (Spain).
+
 ## 2.4.0 (2023-01-05)
 
 ### Changed
