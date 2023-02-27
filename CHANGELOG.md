@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 * Minor versions are made in case of notable changes, new methods added, or small breaking changes made to prevent subsequent problems upstream.
 * Patch versions for all other small changes or fixes.
 
+## 2.5.1 (2023-02-27)
+
+### Added
+
+* **Send EInvoice Dry Run**: added the *options.dry_run* field to the Send EInvoice method for testing purposes.
+
+### Changed
+
+* **Create Entity**: create Client/Supplier now returns a specific error about the reason of the conflict.
+
+### Fixed
+
+* **Issued/Received Documents updated_at**: *updated_at* field now is updated also when the document is set as paid from Fatture in Cloud web.
+
 ## 2.5.0 (2023-01-30)
 
 ### Changed
