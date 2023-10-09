@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 * Minor versions are made in case of notable changes, new methods added, or small breaking changes made to prevent subsequent problems upstream.
 * Patch versions for all other small changes or fixes.
 
+## 2.5.2 (2023-10-09)
+
+### Changed
+
+* **Client - Supplier**: added *contry_iso* field.
+* **Issued/Received Document**: added *locked* field.
+
+### Added
+
+* **Create Webhooks Subscription**: added *config.mapping* field to receive webhooks data in the request body.
+
 ## 2.5.1 (2023-02-27)
 
 ### Added
@@ -67,14 +78,3 @@ All notable changes to this project will be documented in this file.
 ### Changed
 
 * monthly private apps limits are now added up togheter for a maximum of 20000 calls per month per company, public apps limits remain unchanged at 20000 calls per month per company for each app.
-
-## 2.1.0 (2022-08-12)
-
-### Changed
-
-* **Create Issued Document**: *ei_data.od_number* and *oei_data.d_date* parameters are now required when *ei_data.original_document_type* is specified.
-* **Create Issued Document**: *ei_data.payment_method* parameter is now required when *e_invoice* is set to true.
-
-### Fixed
-
-* fixed issue causing a 500 error in case of *fields* parameter set as empty string in LIST and GET methods
