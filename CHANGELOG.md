@@ -68,13 +68,13 @@ All notable changes to this project will be documented in this file.
 
 * monthly private apps limits are now added up togheter for a maximum of 20000 calls per month per company, public apps limits remain unchanged at 20000 calls per month per company for each app.
 
-## 2.1.0 (2022-08-12)
+## 2.2.0 (2023-10-09)
 
 ### Changed
 
-* **Create Issued Document**: *ei_data.od_number* and *oei_data.d_date* parameters are now required when *ei_data.original_document_type* is specified.
-* **Create Issued Document**: *ei_data.payment_method* parameter is now required when *e_invoice* is set to true.
+* **Client - Supplier**: added *contry_iso* field.
+* **Issued/Received Document**: added *locked* field.
 
-### Fixed
+### Added
 
-* fixed issue causing a 500 error in case of *fields* parameter set as empty string in LIST and GET methods
+* **Create Webhooks Subscription**: added *config.mapping* field to receive webhooks data in the request body.
