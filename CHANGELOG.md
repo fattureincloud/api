@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 * Minor versions are made in case of notable changes, new methods added, or small breaking changes made to prevent subsequent problems upstream.
 * Patch versions for all other small changes or fixes.
 
+## 2.6.0 (2024-03-06)
+
+### Changed
+
+* **Company**: added *fic_plan* and *fic_license_expire* fields.
+
+### Added
+
+* **Get Company Plan Usage**: added endpoint to get plan resources limits usage.
+
 ## 2.5.2 (2023-10-09)
 
 ### Changed
@@ -59,7 +69,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 
 * **List Emails**: added endpoint to list sent emails.
-* **Transform Issued Documents**: added endpoint transform issued documents.
+* **Transform Issued Documents**: added endpoint to transform issued documents.
 * **Join Issued Documents**: added endpoint to join issued documents.
 
 ### Changed
