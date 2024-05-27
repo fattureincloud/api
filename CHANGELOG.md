@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 * Minor versions are made in case of notable changes, new methods added, or small breaking changes made to prevent subsequent problems upstream.
 * Patch versions for all other small changes or fixes.
 
-* ## 2.6.1 (2024-05-27)
+## 2.6.1 (2024-05-27)
 
 ### Changed
 
