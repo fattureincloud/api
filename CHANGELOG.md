@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 * Minor versions are made in case of notable changes, new methods added, or small breaking changes made to prevent subsequent problems upstream.
 * Patch versions for all other small changes or fixes.
 
+* ## 2.6.1 (2024-05-27)
+
+### Changed
+
+* **Company**: added *vat_number* field.
+* **IssuedDocument**: removed *show_paypal_button* field.
+* **IssuedDocumentExtraData**: removed *show_sofort_button* field.
+
+### Added
+
+* **Filters**: added *not like* and *not contains* filters.
+
 ## 2.6.0 (2024-03-06)
 
 ### Changed
